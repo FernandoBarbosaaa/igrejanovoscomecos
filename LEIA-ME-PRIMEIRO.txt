@@ -1,0 +1,115 @@
+# 👋 Bem-vindo ao Sistema de Louvores!
+
+## 🎯 Você está a **3 MINUTOS** de ter um sistema funcional!
+
+### ⚡ Inicialização Rápida
+
+**Windows? Duplo-clique em:** `setup.bat`
+
+**Mac/Linux? Execute:**
+```bash
+chmod +x setup.sh
+./setup.sh
+```
+
+**Depois abra 2 terminais:**
+
+```bash
+# Terminal 1 - Backend
+cd backend && npm run dev
+
+# Terminal 2 - Frontend
+cd frontend && npm run dev
+```
+
+### 🌐 Acesse Agora
+
+👉 [http://localhost:5173](http://localhost:5173) 👈
+
+---
+
+## 📚 Documentação (Escolha Uma)
+
+| Tempo | Para | Arquivo |
+|-------|------|---------|
+| ⚡ 2 min | Ver visualmente | [GUIA_VISUAL.md](GUIA_VISUAL.md) |
+| ⚡ 5 min | Setup rápido | [QUICKSTART.md](QUICKSTART.md) |
+| ⚡ 10 min | Documentação completa | [README.md](README.md) |
+| ⚡ 15 min | Entender arquitetura | [ARQUITETURA.md](ARQUITETURA.md) |
+
+---
+
+## ✅ Está Funcionando?
+
+Abra seu terminal e verifique:
+
+```bash
+# Backend deve responder
+curl http://localhost:3001/api/health
+
+# Deve retornar:
+{"status":"OK","timestamp":"..."}
+```
+
+✅ **Se viu a mensagem acima = TUDO OK!**
+
+---
+
+## 🎵 Teste Agora!
+
+1. Preecha formulário:
+   - Nome: "Graciosa Deus"
+   - Cantor: "Bruna Olly"
+   - Letra: (copie de EXEMPLO.md)
+
+2. Clique em "✨ Criar Louvor"
+
+3. Clique em "📊 Gerar Apresentação"
+
+4. PowerPoint deve baixar! 📥
+
+---
+
+## 🆘 Problemas?
+
+| Erro | Solução |
+|------|---------|
+| Porta em uso | Mude no .env |
+| API não conecta | Verifique backend |
+| PPT não gera | Verifique espaço disco |
+| Arquivo não sobe | Use MP3/WAV |
+
+👉 Ver mais em: [TESTES.md](TESTES.md)
+
+---
+
+## 🎁 Próximos Passos
+
+1. ✅ Rodar o setup
+2. ✅ Testar no navegador
+3. ✅ Adicionar bem-vindo louvor
+4. ✅ Gerar primeira apresentação
+5. ✅ Compartilhar com a comunidade 🎉
+
+---
+
+## 🔗 Links Importantes
+
+- 🌐 **Frontend:** http://localhost:5173
+- 🔌 **API:** http://localhost:3001/api
+- 📚 **Documentação:** INDEX.md
+- 💻 **Código:** `/backend` e `/frontend`
+
+---
+
+## 🙏 Bênção!
+
+> "Que todo o meu ser louve ao Senhor und seus feitos que nenhuma língua peca expressmr." - Salmo 103
+
+Use este sistema para glorificar Cristo na sua comunidade! 🎵⛪❤️
+
+---
+
+**Status: ✅ PRONTO PARA USAR**
+
+Desenvolvido com ❤️ - 8 de abril de 2026
